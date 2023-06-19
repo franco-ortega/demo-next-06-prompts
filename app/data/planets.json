@@ -1,34 +1,34 @@
-{
-  "mercury": {
+[
+  { "id": "1",
     "path": "mercury",
     "title": "Mercury"
   },
-  "venus": {
+  { "id": "2",
     "path": "venus",
     "title": "Venus"
   },
-  "earth": {
+  { "id": "3",
     "path": "earth",
     "title": "Earth"
   },
-  "mars": {
+  { "id": "4",
     "path": "mars",
     "title": "Mars"
   },
-  "jupiter": {
+  { "id": "5",
     "path": "jupiter",
     "title": "Jupiter"
   },
-  "saturn": {
+  { "id": "6",
     "path": "saturn",
     "title": "Saturn"
   },
-  "uranus": {
+  { "id": "7",
     "path": "uranus",
     "title": "Uranus"
   },
-  "neptune": {
+  { "id": "8",
     "path": "neptune",
     "title": "Neptune"
   }
-}
+]
