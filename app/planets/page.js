@@ -1,18 +1,8 @@
-'use client';
-
 import Link from 'next/link';
-import planetsData from '../data/planets';
-import { useEffect, useState } from 'react';
+
+import planets from '../data/planets';
 
 export default function Planets() {
-  const [planets, setPlanets] = useState([]);
-
-  useEffect(() => {
-    setPlanets(planetsData);
-  }, []);
-
-  console.log(planets);
-
   return (
     <>
       <h2>Planets</h2>
