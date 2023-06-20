@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 import planets from '../data/planets';
 
 export default function Planets() {

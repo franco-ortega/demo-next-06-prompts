@@ -1,13 +1,17 @@
 'use client';
 
 import { useParams } from 'next/navigation';
+import planetData from '../../data/planets';
 
 export default function Planet() {
   const params = useParams();
 
-  const planet =
-    params.planet.slice(0, 1).toUpperCase() + params.planet.slice(1);
-  console.log(planet);
+  const planet = planetData.find((planet) => planet.path === params.planet);
 
-  return <div>This is planet {planet}.</div>;
+  return (
+    <div>
+      <p>This is planet {planet.title}.</p>
+      <p>Facts: {planet.facts}</p>
+    </div>
+  );
 }
