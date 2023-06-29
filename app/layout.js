@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import './globals.css';
 import Header from '@/components/Header';
 // import { Inter } from 'next/font/google';
