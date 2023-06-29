@@ -25,6 +25,9 @@ export default function RootLayout({ children }) {
               <li>
                 <Link href={'/planets'}>Planets</Link>
               </li>
+              <li>
+                <Link href={'/moons'}>Moons</Link>
+              </li>
             </ul>
           </nav>
           <hr />
