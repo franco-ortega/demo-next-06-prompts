@@ -12,5 +12,5 @@ export default function Home() {
 const styles = {
   main: 'bg-blue-500 w-96 m-auto p-5',
   h2: 'p-2',
-  p: 'bg-blue-700 p-2',
+  p: 'bg-blue-700 p-2 text-gray-300',
 };
